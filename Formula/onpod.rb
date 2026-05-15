@@ -7,30 +7,30 @@
 #   brew tap latemonk/onpod
 #   brew install onpod
 class Onpod < Formula
-  desc "onpod CLI — GPU/CPU on-demand · Claude Code 자율주행"
+  desc "onpod CLI — 한 줄로 끝나는 자율주행 GPU·CPU 인프라"
   homepage "https://onpod.ai"
-  version "0.1.0"
+  version "0.1.1"
   license "Proprietary"
 
   on_macos do
     on_arm do
       url "https://onpod.ai/cli/onpod-darwin-arm64"
-      sha256 "068d2d31cc797c1cffe09cb7dc32f74d5484db6ab4610118b25f4560aec6c83c"
+      sha256 "206f69352108ee7ad1fc9dec1c5d2675d050d3aade008aa78cdb6d363f84cfdf"
     end
     on_intel do
       url "https://onpod.ai/cli/onpod-darwin-amd64"
-      sha256 "409dad83290bbd44a227d95074857137f24533b5e8f64e93eaab95d3d2548a48"
+      sha256 "3009475bfda4ebdc59d2ccb34ad543d4c6f7e968a7e4e1fc6336e12b560e5ede"
     end
   end
 
   on_linux do
     on_arm do
       url "https://onpod.ai/cli/onpod-linux-arm64"
-      sha256 "e54b945042f55fe3d6cc56703ac4b0710148cf96180b1df109e350f9ae53a250"
+      sha256 "6071fe85882dd60614a20a68c00b4b48c07967d79424c7cc484ad479e8efb207"
     end
     on_intel do
       url "https://onpod.ai/cli/onpod-linux-amd64"
-      sha256 "1f606d0ee5a52eeaaf3b74283bc5465f0aab9575b65ac53ac055c4afcdd35637"
+      sha256 "afca4a71f9effe578f68a37b379c6b718e455088f0fddfb993ef46a2673500e0"
     end
   end
 
