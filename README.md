@@ -13,7 +13,7 @@ curl -fsSL https://onpod.ai/install.sh | sh
 **Homebrew (macOS / Linux)**:
 
 ```sh
-brew tap latemonk/onpod   # 평생 한 번만
+brew tap onpod/onpod      # 평생 한 번만
 brew install onpod        # 그 후 매번 한 줄
 brew upgrade onpod        # 업데이트
 ```
@@ -61,5 +61,5 @@ onpod bill summary            # 월별 사용 합계
 
 ## 라이선스
 
-Proprietary. © AI3 / onpod.
+Proprietary. © onpod / AI3.
 "onpod" 은 등록상표.
