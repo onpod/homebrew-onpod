@@ -9,28 +9,28 @@
 class Onpod < Formula
   desc "onpod CLI — 한 줄로 끝나는 자율주행 GPU·CPU 인프라"
   homepage "https://onpod.ai"
-  version "0.7.76"
+  version "0.7.77"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://onpod.ai/cli/onpod-darwin-arm64?v=0.7.76"
-      sha256 "7c234d9ae8ad47d0ff067ef99f1a8b7ac6fda21ad3f0614f9696cdf11650039c"
+      url "https://onpod.ai/cli/onpod-darwin-arm64?v=0.7.77"
+      sha256 "6e0455d77d52caec8dd2bc2b7518f54fb1695bdc173a543b4603ab56a8206fc1"
     end
     on_intel do
-      url "https://onpod.ai/cli/onpod-darwin-amd64?v=0.7.76"
-      sha256 "d14f2c25a193d419e79d5c31f8c6d1589dbbb29b17a82c2685e9e55cbe5dd1ef"
+      url "https://onpod.ai/cli/onpod-darwin-amd64?v=0.7.77"
+      sha256 "1bc9cfd86bc13ec4aec6b11d4c76670fa6eaf8450dc72e84718a5f5289115446"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://onpod.ai/cli/onpod-linux-arm64?v=0.7.76"
-      sha256 "c7231b0dfae52e5b98ad70159468eada32533f3bd684d2a47c76251c7929cae6"
+      url "https://onpod.ai/cli/onpod-linux-arm64?v=0.7.77"
+      sha256 "170986140343b4c229664949bf098b8dadcb144e19c123a3142c982158c8d6c4"
     end
     on_intel do
-      url "https://onpod.ai/cli/onpod-linux-amd64?v=0.7.76"
-      sha256 "4d92f09887202fbac0e5ea79b91c8141d044a1646be2419c0c7364c5063a28d6"
+      url "https://onpod.ai/cli/onpod-linux-amd64?v=0.7.77"
+      sha256 "79263f822dccb9230200ee649f2cebdd0452a5ca7c5db71be824ba3ac8bf6569"
     end
   end
 
