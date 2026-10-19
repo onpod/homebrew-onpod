@@ -15,22 +15,22 @@ class Onpod < Formula
   on_macos do
     on_arm do
       url "https://onpod.ai/cli/onpod-darwin-arm64?v=0.7.141"
-      sha256 "cc7f204428e4c375c044854a0db3387a7d4681197521692ac59f9e382ff1f2f2"
+      sha256 "9fb06fa909ed5d9000c58fd910692c98ced87c3850c0720562013c78e96812b7"
     end
     on_intel do
       url "https://onpod.ai/cli/onpod-darwin-amd64?v=0.7.141"
-      sha256 "c9b1e2cf9091ffa3ded0d5b8565e5669fb798e6c2b9db943bcf224a4db37afd2"
+      sha256 "8fa9ced19b90f277e567e38da53f1c2d6854eb6ef4a9bd27c47d6ab6a9619e67"
     end
   end
 
   on_linux do
     on_arm do
       url "https://onpod.ai/cli/onpod-linux-arm64?v=0.7.141"
-      sha256 "9e9863801a7a5db054fd1560f624dc707247423cda5366bd459d1a0d1591588d"
+      sha256 "8681ebddc8c602e4b5717d66bd5f58662f6a373e323a978d4aa23ce7f76791e7"
     end
     on_intel do
       url "https://onpod.ai/cli/onpod-linux-amd64?v=0.7.141"
-      sha256 "ab3c47303989bb4c7334bc1b26f1d5e252d883932888ca469eb966b821c68ec8"
+      sha256 "17c31f3acd349dce9cba5bdfd759b75c323efe89491f128819191d048f0b6116"
     end
   end
 
