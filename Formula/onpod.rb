@@ -14,22 +14,22 @@ class Onpod < Formula
 
   on_macos do
     on_arm do
-      url "https://onpod.ai/cli/onpod-darwin-arm64?v=0.7.157"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.157/onpod-darwin-arm64"
       sha256 "cb62461b1e8fe9a2ed0b17c31384ce8e51c4b6ca67734ca97c3d2a8238d22140"
     end
     on_intel do
-      url "https://onpod.ai/cli/onpod-darwin-amd64?v=0.7.157"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.157/onpod-darwin-amd64"
       sha256 "c1b95954e2f5f8c719e176b034b42008eb3df06be1e7de9ba37e6aba1be468e0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://onpod.ai/cli/onpod-linux-arm64?v=0.7.157"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.157/onpod-linux-arm64"
       sha256 "89471df9096b8c2ee071d4077d81416c9461e1b26ac9083a789f98ace96ec373"
     end
     on_intel do
-      url "https://onpod.ai/cli/onpod-linux-amd64?v=0.7.157"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.157/onpod-linux-amd64"
       sha256 "e3282b6c0c949f440b43653853918efb54836b61abfca1c3d72b2989ebe5647c"
     end
   end
