@@ -9,28 +9,28 @@
 class Onpod < Formula
   desc "onpod CLI — 한 줄로 끝나는 자율주행 GPU·CPU 인프라"
   homepage "https://onpod.ai"
-  version "0.7.159"
+  version "0.7.160"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.159/onpod-darwin-arm64"
-      sha256 "8bdcc5537416c4b6de099a6b4ccdc7750f1afec09753fdef311e3e5e0f265ac9"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.160/onpod-darwin-arm64"
+      sha256 "ae7762283dc864b5a8d492f2da814306b7db107f4693830368dc2e83a6fdfa68"
     end
     on_intel do
-      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.159/onpod-darwin-amd64"
-      sha256 "df4df8591167392ad3b1d04c05e2482bdb53c15a204a7fb2324bfd003e94d29c"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.160/onpod-darwin-amd64"
+      sha256 "c48409c19adb36ae3c221823d23f5ce520745bfc072923955f35be53c93d47a4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.159/onpod-linux-arm64"
-      sha256 "1ad677c204798748076fde805d6760eb8297f93360b902d1ae1ee757f806781a"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.160/onpod-linux-arm64"
+      sha256 "5852e8e1392f58577487d80516bc6ee3310736ce43a733601596d1d9ecd7e236"
     end
     on_intel do
-      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.159/onpod-linux-amd64"
-      sha256 "2467eadf9c7d7309a2cec9d4031c635a7b5261e5928e14282e11f7b3737e5153"
+      url "https://github.com/onpod/homebrew-onpod/releases/download/v0.7.160/onpod-linux-amd64"
+      sha256 "b940204b9b7489d703184ae6915be5927c55c281ca2a046b5782eed9fef5af5f"
     end
   end
 
